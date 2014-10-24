@@ -1,0 +1,48 @@
+	@font-face {
+		font-family:twitch;
+		src: url("DIMITRI.ttf")
+	}
+	@font-face {
+		font-family:twitchhollow;
+		src:url("DIMIS.ttf")
+	}
+	body {
+		background: url("cebanner.jpg") no-repeat center center fixed;
+	}
+	header {
+	}
+	header h1 {
+		color:gold;
+		background:transparent;
+		font-family:twitch;
+		font-size:500%;
+		position:;
+	}
+	nav ul {
+		list-style-type:none;
+		margin:2%;
+		padding:0;
+	}
+	nav ul li {
+		display:inline-block;
+		list-style:none;
+		font-size:200%;
+	}
+	nav ul li a {
+		padding:8px 30px;
+		text-align:center;
+		color:gold;
+		background:darkgreen;
+		font-family:twitch;
+		text-decoration:none;
+	}
+	nav ul li a:hover {
+		color:darkgreen;
+		background:gold;
+		font-family:twitchhollow;
+	}
+	aside {
+		float:right;
+		color:gold;
+		background:darkgreen;
+	}
