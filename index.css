@@ -72,3 +72,17 @@
 		font-size:25px;
 		text-align:center;
 	}
+	.adbanner {
+		position: absolute;
+		left: 250px;
+		/*if news h1 is taken out change top to 285px*/
+		top: 405px;
+		width: 69%;
+		height: 132px;
+		background-color: #f7f7f7;
+		font-size: 70px;
+		color: darkblue;
+		padding-left: 20px; 
+		text-align: center;
+		display: none;
+	}
