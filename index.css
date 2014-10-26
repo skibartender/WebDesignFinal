@@ -72,7 +72,7 @@
 		font-size:25px;
 		text-align:center;
 	}
-	.adbanner {
+	.crapblocker {
 		position: absolute;
 		left: 250px;
 		/*if news h1 is taken out change top to 285px*/
@@ -84,5 +84,4 @@
 		color: darkblue;
 		padding-left: 20px; 
 		text-align: center;
-		display: none;
 	}
