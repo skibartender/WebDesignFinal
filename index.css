@@ -16,12 +16,12 @@
 		background:transparent;
 		font-family:twitch;
 		font-size:500%;
-		position:;
+		text-align:center;
+		position:relative;
 	}
 	nav ul {
 		list-style-type:none;
-		margin:2%;
-		padding:0;
+		margin:;
 	}
 	nav ul li {
 		display:inline-block;
@@ -41,8 +41,34 @@
 		background:gold;
 		font-family:twitchhollow;
 	}
+	article {
+		float:left;
+		width:71%;
+		color:gold;
+		background:transparent;
+	}
+	article h1 {
+		color:gold;
+		text-align:center;
+		font-family:twitch;
+		font-size:250%;
+	}
+	article p {
+		color:;
+		text-align:;
+	}
 	aside {
 		float:right;
+		width:21%;
+		left:31%;
+	}
+	aside ul {
+		list-style:none;
+	}
+	aside ul li {
 		color:gold;
 		background:darkgreen;
+		font-family:twitchhollow;
+		font-size:150%;
+		text-align:center;
 	}
