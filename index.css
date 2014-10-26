@@ -1,10 +1,10 @@
 	@font-face {
 		font-family:twitch;
-		src: url("DIMITRI.ttf")
+		src: url("DIMITRI.TTF")
 	}
 	@font-face {
 		font-family:twitchhollow;
-		src:url("DIMIS.ttf")
+		src:url("DIMIS.TTF")
 	}
 	body {
 		background: url("cebanner.jpg") no-repeat center center fixed;
