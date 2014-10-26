@@ -76,7 +76,6 @@
 	}
 	.crapblocker {
 		position: absolute;
-		left: 250px;
 		/*if news h1 is taken out change top to 285px*/
 		top: 405px;
 		width: 69%;
