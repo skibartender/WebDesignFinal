@@ -17,6 +17,25 @@
 	<meta name="author" content="WVJC Computer Club">
 </head>
 <body class="background">
+	<!--Javascript for facebook plugin-->
+	<div id="fb-root"></div>
+			<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  appId      : '906280422716813',
+			  xfbml      : true,
+			  version    : 'v2.1'
+			});
+		  };
+
+		  (function(d, s, id){
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) {return;}
+			 js = d.createElement(s); js.id = id;
+			 js.src = "https://connect.facebook.net/en_US/sdk.js";
+			 fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+			</script>
 	<!--Header Container-->
 	<header>
 		<h1 class="mainpage-h1">WVJC Computer Club</h1>
@@ -39,11 +58,8 @@
 			<!-- Left Column-->
 			<article class="mainpagearticle">
 				<h1 class="article-h1">News</h1>
-				<p class="article-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit justo nec ligula aliquam mollis. Nulla placerat ex aliquam accumsan tincidunt. Nulla porta malesuada urna, quis maximus tortor dictum non. Donec sollicitudin porta tortor a consequat. Morbi vel felis enim. In fermentum turpis vel dui faucibus, quis imperdiet diam lacinia. Proin id ligula neque. Proin imperdiet lobortis elit, nec dictum eros. Mauris varius, ligula vitae iaculis feugiat, tellus nisi dictum justo, et accumsan risus urna a massa. Donec sagittis nibh ut tellus eleifend lobortis. Sed molestie blandit suscipit. Fusce egestas laoreet accumsan. Morbi at dignissim tellus. Cras pulvinar faucibus semper. Praesent fringilla erat faucibus, dapibus nisl eget, venenatis nunc. Donec lacinia lobortis mi nec lacinia.</p>
-				<p>Phasellus ac quam at elit eleifend maximus. Phasellus dictum, nisl vestibulum condimentum posuere, ante neque placerat velit, non vestibulum urna nulla in nisi. Nulla egestas erat eget sapien fermentum eleifend. Vestibulum dapibus sollicitudin tristique. Vivamus eu volutpat tortor, non dapibus turpis. Quisque tristique magna vel interdum faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum, lorem non rutrum laoreet, enim ex volutpat ipsum, mattis scelerisque ipsum dui et dolor. Nulla eget aliquam tellus, quis posuere lorem. Nunc lacus purus, fermentum eu purus id, pharetra faucibus magna. Fusce sed magna tincidunt, laoreet risus et, placerat augue. Mauris maximus in sapien dapibus interdum. Ut quis mollis sem, vel vestibulum elit. Nam aliquam erat eget est sagittis, ut faucibus nulla rhoncus. Duis a elementum lorem. Ut sit amet felis enim.</p>
-				<p>Aenean finibus interdum luctus. Phasellus semper sed risus placerat sagittis. Fusce sollicitudin orci nec tincidunt elementum. Phasellus placerat maximus nulla aliquet scelerisque. In placerat felis sed enim varius vestibulum. Etiam a fringilla velit. Donec venenatis mauris sed ullamcorper ultrices. Nunc sollicitudin tortor quis massa consectetur dictum.</p>
-				<p>Duis nunc quam, suscipit quis enim nec, pretium aliquam nisi. Suspendisse semper mauris risus, nec rhoncus tellus laoreet et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras maximus euismod efficitur. Quisque suscipit tempor blandit. Donec risus orci, ultrices id risus in, egestas consectetur nisi. Duis ut hendrerit leo. Ut varius erat elit, eget porttitor elit pulvinar quis. Phasellus sapien sapien, convallis gravida eros a, sagittis placerat purus. Morbi sollicitudin interdum elit vehicula pharetra. Sed et nisl vitae quam blandit tristique. Nulla eleifend, justo id mollis sodales, metus metus volutpat ligula, vel mattis arcu ligula vitae dolor. Sed libero nisi, tincidunt in aliquam in, viverra sed lorem. Nulla facilisi.</p>
-				<p>Morbi et hendrerit magna. Aliquam erat volutpat. Aliquam eu nisi eu urna cursus gravida. Nullam finibus tortor quis accumsan placerat. Phasellus mattis rhoncus cursus. In hac habitasse platea dictumst. Maecenas quam magna, pretium et diam consectetur, consequat tristique arcu. Etiam vehicula metus nulla, vehicula dictum ipsum vehicula in. Aenean laoreet elit ante, placerat efficitur orci vehicula non. Mauris sagittis vulputate diam id condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Cras consectetur dictum ex, ut consectetur ex vehicula sit amet. Aliquam erat volutpat. Aenean in tempus dui, sit amet viverra dolor. Phasellus in magna id ipsum auctor vulputate.</p>
+					<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="200" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="true">
+					</div>
 			</article>
 			<!--Right Column-->
 			<aside>
