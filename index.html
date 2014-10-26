@@ -17,25 +17,6 @@
 	<meta name="author" content="WVJC Computer Club">
 </head>
 <body class="background">
-	<!--Javascript for facebook plugin-->
-	<div id="fb-root"></div>
-			<script>
-		  window.fbAsyncInit = function() {
-			FB.init({
-			  appId      : '906280422716813',
-			  xfbml      : true,
-			  version    : 'v2.1'
-			});
-		  };
-
-		  (function(d, s, id){
-			 var js, fjs = d.getElementsByTagName(s)[0];
-			 if (d.getElementById(id)) {return;}
-			 js = d.createElement(s); js.id = id;
-			 js.src = "https://connect.facebook.net/en_US/sdk.js";
-			 fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
-			</script>
 	<!--Header Container-->
 	<header>
 		<h1 class="mainpage-h1">WVJC Computer Club</h1>
@@ -58,8 +39,7 @@
 			<!-- Left Column-->
 			<article class="mainpagearticle">
 				<h1 class="article-h1">News</h1>
-					<div class="fb-like-box" data-href="https://www.facebook.com/groups/WVJCCompClub/" data-width="200" data-height="400" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false">
-					</div>
+				<iframe id="wallflux" name="iframe" src="https://www.wallflux.com/iframe/222640864535193" width="100%;" height="250px" frameborder="0">The Wallflux iframe of the <a href="https://www.facebook.com/groups/WVJCCompClub/">WVJC Computer Club</a> Facebook-page is embedded here.</iframe>
 			</article>
 			<!--Right Column-->
 			<aside>
