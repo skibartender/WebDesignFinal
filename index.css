@@ -10,7 +10,7 @@
 	}
 	body.background {
 		background: url("cebanner.jpg") no-repeat center center fixed;
-		min-width:1160px;
+		min-width:1350px;
 	}
 	.mainpage {
 	}
@@ -85,5 +85,4 @@
 		color: darkblue;
 		padding-left: 20px; 
 		text-align: center;
-		min-width:1350px;
 	}
