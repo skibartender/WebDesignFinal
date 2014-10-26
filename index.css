@@ -1,3 +1,5 @@
+	/*adblock blocks all these
+	::content .ad_wrap, ::content .ad_wrapper, ::content .ad_wrapper_false, ::content .ad_wrapper_fixed, ::content .ad_wrapper_top, ::content .ad_wrp, ::content .ad_zone, ::content .adamazon, ::content .adarea, ::content .adarea-long, ::content .adb-728x90, ::content .adback, ::content .adban-hold-narrow, ::content .adbanner, ::content .adbanner1, ::content .adbannerbox, ::content .adbanneriframe, ::content .adbannerright, ::content .adbannertop, ::content .adbar*/	
 	@font-face {
 		font-family:twitch;
 		src: url("DIMITRI.TTF")
