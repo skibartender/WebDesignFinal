@@ -26,6 +26,8 @@ min-width:1350px;
 }
 /*Added for use with sticky footer*/
 html, body, .wrapper { 
+margin:0;
+padding:0;
 height:100%;
 }
 body > .wrapper {
@@ -42,73 +44,74 @@ font-size:500%;
 text-align:center;
 position:relative;
 }
-nav {
-font-size:20px;
-background:darkgreen;
-text-align:center;
-/*rounded edges*/
-border-radius:20px;
+.nav {
 }
-	nav ul {
+	.nav ul {
 	list-style:none;
 	position:relative;
-	display:inline-table;
+	background:darkgreen;
+	text-align:center;
+	padding:0;
+	margin:0;
+	margin-left:8%;
+	margin-right:8%;
+	width:1300px;
 	}
-		nav ul:after {
-			content: "";
-			clear:both;
-			display:block;
+		.nav ul:after {
+		content: "";
+		clear:both;
+		display:block;
 		}
-		nav ul li {
-		padding:0px 30px 0px 30px;
+		.nav ul li {
 		list-style:none;
-		display:inline;
-		float:left;
+		display:inline-block;
+		width:200px;
+		font-size:1.2em;
+		/*next 2 lines make hover bg fill block*/
+		line-height:40px;
+		height:40px;
+		
+		
 		}
-			nav ul li a {
+			.nav ul li a {
 			display:block;
 			color:gold;
 			font-family:bit;
 			text-decoration:none;
+			cursor:default;
 			}
-				nav ul li a:hover {
+				.nav ul li a:hover {
 				color:darkgreen;
 				background:gold;
-				/*top right bottom left*/
-				padding:3px 2px 6px 2px;
-				/*counters padding adjustments*/
-				margin:-3px -2px -6px -2px;
 				font-family:bit;
-				border-radius:5px;
-				border-bottom:4px;
-				border-bottom-color:#000000;
-				border-bottom-style:solid;
 				}
 					/*sub list for tech help*/
-					nav ul ul {
+					.nav ul ul {
 					display:none;
 					position:absolute;
 					top:100%;
+					width:400px;
 					border-radius:0px;
 					padding:0px;
 					background:darkgreen;
-					font-size:15px;
+					font-size:0.5em;
 					text-align:left;
 					z-index:1;
+					margin:auto;
 					}
-					nav ul li:hover > ul {
-						display:block;
+					.nav ul li:hover > ul {
+					display:block;
 					}
-						nav ul ul li {
-							float:none;
-							position:relative;
-							
+						.nav ul ul li {
+						display:inline-block;
+						position:relative;
+						text-align:none;
 						}
-							nav ul ul li a {
+							.nav ul ul li a {
 							}
-								nav ul ul li a:hover {
-									color:darkgreen;
-									background:gold;
+								.nav ul ul li a:hover {
+								color:darkgreen;
+								background:gold;
 								}
 .mainpagearticle {
 float:left;
@@ -116,6 +119,14 @@ width:71%;
 }
 .article-h1 {
 color:gold;
+background:darkgreen;
+width:300px;
+margin-right:50%;
+margin-left:33%;
+line-height:60px;
+height:60px;
+border-top-left-radius:40px;
+border-top-right-radius:40px;
 text-align:center;
 font-family:twitch;
 font-size:250%;
