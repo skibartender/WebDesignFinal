@@ -14,6 +14,14 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="description" content="Homepage for the West Virginia Junior College Charleston Campus Computer Club">
 	<meta name="author" content="WVJC Computer Club">
+	<!--jquery script-->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script>
+	$(function() {
+	  $( "#nav" ).tabs();
+	});
+	</script>
 </head>
 <body class="background">
 	<!--Wrapper-->
@@ -23,30 +31,37 @@
 			<h1 class="mainpage-h1">WVJC Computer Club</h1>
 		</header>
 	<!--Nav Bar Container-->
-	<div class="nav">
+	<div id="nav">
 		<ul>
-			<li><a href="#">Home</a>
-			<li><a href="#">Events</a>
-			<li><a href="#">Tech Help</a>
+			<li><a href="#nav-1">Home</a>
+			<li><a href="#nav-2">Events</a>
+			<li><a href="#nav-3">Tech Help</a>
 				<ul>
-					<li><a href="#">Virus Removal</a>
-					<li><a href="#">Computer Cleanup</a>
-					<li><a href="#">Diagnostic</a>
+					<li><a href="#nav-4">Virus Removal</a>
+					<li><a href="#nav-5">Computer Cleanup</a>
+					<li><a href="#nav-6">Diagnostic</a>
 				</ul>
-			<li><a href="#">Forum</a>
-			<li><a href="#">Members</a>
-			<li><a href="#">Contact Us</a>
+			<li><a href="#nav-7">Forum</a>
+			<li><a href="#nav-8">Members</a>
+			<li><a href="#nav-9">Contact Us</a>
 		</ul>
 	</div>
 			<!--container for columns-->
 			<div class="container">
 				<!-- Left Column-->
 				<article class="mainpagearticle">
-					<h1 class="article-h1">News Feed</h1>
-					<!--Ad hiding banner-->
-					<div class="crapblocker">Facebook Group Posts</div>
-					<!--facebook feed-->
-					<iframe id="wallflux" name="iframe" src="https://www.wallflux.com/iframe/222640864535193" width="100%;" height="1200px" frameborder="0">The Wallflux iframe of the <a href="https://www.facebook.com/groups/WVJCCompClub/">WVJC Computer Club</a> Facebook-page is embedded here.</iframe>
+					<!--home tab-->
+					<div id="nav-1">
+						<h1 class="article-h1">News Feed</h1>
+						<!--Ad hiding banner-->
+						<div id="crapblocker">Facebook Group Posts</div>
+						<!--facebook feed-->
+						<iframe id="wallflux" name="iframe" src="https://www.wallflux.com/iframe/222640864535193" width="100%;" height="1200px" frameborder="0">The Wallflux iframe of the <a href="https://www.facebook.com/groups/WVJCCompClub/">WVJC Computer Club</a> Facebook-page is embedded here.</iframe>
+					</div>
+					<!--Events tab-->
+					<div id="nav-2">
+						<p>this is the events tab</p>
+					</div>
 				</article>
 				<!--Right Column-->
 				<aside class="asideright">
