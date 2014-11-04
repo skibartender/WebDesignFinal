@@ -1,15 +1,15 @@
 $(function() {
 
     var newHash      = "",
-        $mainContent = $("#main-content"),
-        $pageWrap    = $("#page-wrap"),
+        $mainContent = $("#container"),
+        $pageWrap    = $("#wrapper"),
         baseHeight   = 0,
         $el;
         
     $pageWrap.height($pageWrap.height());
     baseHeight = $pageWrap.height() - $mainContent.height();
     
-    $("nav").delegate("a", "click", function() {
+    $("#nav").delegate("a", "click", function() {
         window.location.hash = $(this).attr("href");
         return false;
     });
@@ -20,16 +20,16 @@ $(function() {
         
         if (newHash) {
             $mainContent
-                .find("#guts")
+                .find("#mainpagearticle")
                 .fadeOut(200, function() {
-                    $mainContent.hide().load(newHash + " #guts", function() {
+                    $mainContent.hide().load(newHash + " #mainpagearticle", function() {
                         $mainContent.fadeIn(200, function() {
                             $pageWrap.animate({
                                 height: baseHeight + $mainContent.height() + "px"
                             });
                         });
-                        $("nav a").removeClass("current");
-                        $("nav a[href="+newHash+"]").addClass("current");
+                        $("#nav a").removeClass("current");
+                        $("#nav a[href="+newHash+"]").addClass("current");
                     });
                 });
         };
